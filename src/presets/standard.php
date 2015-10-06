@@ -8,18 +8,16 @@
  * @link http://www.2amigos.us/
  */
 return [
-    'height' => 300,
+    'height' => 200,
     'toolbarGroups' => [
-        ['name' => 'clipboard', 'groups' => ['mode', 'undo', 'selection', 'clipboard', 'doctools']],
-        ['name' => 'editing', 'groups' => ['tools', 'about']],
-        '/',
-        ['name' => 'paragraph', 'groups' => ['templates', 'list', 'indent', 'align']],
-        ['name' => 'insert'],
-        '/',
-        ['name' => 'basicstyles', 'groups' => ['basicstyles', 'cleanup']],
-        ['name' => 'colors'],
-        ['name' => 'links'],
-        ['name' => 'others'],
+		['name' => 'undo'],
+		['name' => 'basicstyles', 'groups' => ['basicstyles', 'cleanup']],
+		['name' => 'align'],
+		['name' => 'colors'],
+		['name' => 'links'],
+		['name' => 'insert'],
+		['name' => 'table'],
+		['name' => 'others', 'groups' => ['others', 'about']],
     ],
     'removeButtons' => 'Smiley,Iframe'
 ];
