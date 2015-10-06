@@ -1,5 +1,5 @@
 {
-    "name": "2amigos/yii2-ckeditor-widget",
+    "name": "macswer/yii2-ckeditor-widget",
     "description": "CKEditor widget for Yii2.",
     "type": "yii2-extension",
     "keywords": [
@@ -9,7 +9,8 @@
         "yii 2",
         "extension",
         "widget",
-        "ckeditor"
+        "ckeditor",
+		"macswer"
     ],
     "homepage": "http://yiiwheels.com/extension/ckeditor-widget",
     "license": "BSD-3-Clause",
@@ -22,8 +23,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/2amigos/yii2-ckeditor-widget/issues",
-        "source": "https://github.com/2amigos/yii2-ckeditor-widget"
+        "issues": "https://github.com/macswer/yii2-ckeditor-widget/issues",
+        "source": "https://github.com/macswer/yii2-ckeditor-widget"
     },
     "require": {
         "yiisoft/yii2": "~2.0.0"
@@ -33,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "dosamigos\\ckeditor\\": "src"
+            "macswer\\ckeditor\\": "src"
         }
     },
     "extra": {
