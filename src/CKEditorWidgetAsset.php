@@ -4,7 +4,7 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\ckeditor;
+namespace macswer\ckeditor;
 
 use yii\web\AssetBundle;
 
@@ -14,12 +14,12 @@ use yii\web\AssetBundle;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\ckeditor
+ * @package macswer\ckeditor
  */
 class CKEditorWidgetAsset extends AssetBundle
 {
     public $depends = [
-        'dosamigos\ckeditor\CKEditorAsset'
+        'macswer\ckeditor\CKEditorAsset'
     ];
     public $js = [
         'dosamigos-ckeditor.widget.js'

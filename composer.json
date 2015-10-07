@@ -1,5 +1,6 @@
 {
     "name": "macswer/yii2-ckeditor-widget",
+	"type": "yii2-extension",
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -13,6 +14,11 @@
     },
     "require-dev": {
         "phpunit/phpunit": "4.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "macswer\\ckeditor\\": "src"
+        }
     },
 	"extra": {
         "asset-installer-paths": {
